@@ -30,6 +30,7 @@ void doQuickSort(int arr[], int first, int last)
 			pivot = true;
 		if(arr[right] < arr[pos])
 		{
+			//Swapping
 			temp = arr[pos];
 			arr[pos] = arr[right];
 			arr[right] = temp;
@@ -42,6 +43,7 @@ void doQuickSort(int arr[], int first, int last)
 			pivot = true;
 		if(arr[left] > arr[pos])
 		{
+			//Swapping
 			temp = arr[pos];
 			arr[pos] = arr[left];
 			arr[left] = temp;
