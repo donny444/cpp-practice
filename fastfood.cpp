@@ -50,9 +50,9 @@ int main() {
 		}
 	}
 	cout << "Please check your order\n";
-	cout << "Hamburger Number : " << burger << "\n";
-	cout << "Side Dish Number : " << side << "\n";
-	cout << "Drinking Number : " << drink << "\n";
+	cout << "Hamburger : " << burger << "\n";
+	cout << "Side Dish : " << side << "\n";
+	cout << "Drinking : " << drink << "\n";
 	cout << "Please confirm your order (yes/no) : ";
 	cin >> conf;
 	/*
