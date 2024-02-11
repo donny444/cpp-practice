@@ -14,7 +14,7 @@ int main()
 	switch(ans) {
 		case 1: cout << food; break;
 		case 2: cout << foodAddress; break;
-		default: cout << "Input only 'a' or 'b' (case-sensitive)";
+		default: cout << "Input only '1' or '2'";
 	}
 	
 	return 0;
